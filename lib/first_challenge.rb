@@ -25,7 +25,7 @@ contacts.each do | person, data |
         value.each do |flavor|
             puts "#{flavor}"
             value.each do |x|
-              [].delete_if{ |x| == "strawberry"}
+              [].delete_if{ |x|  "strawberry"}
             end
         end
       end

@@ -24,7 +24,7 @@ contacts.each do | person, data |
       if attribute == :favorite_icecream_flavors
         value.each do |flavor|
             puts "#{flavor}"
-            flavor.shift
+            value.each.shift
         end
       end
     end

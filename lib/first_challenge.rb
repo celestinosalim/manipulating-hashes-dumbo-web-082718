@@ -16,8 +16,15 @@ def first_challenge
   }
   # binding.pry
 
-contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }
+#first_method
 
-  #remember to return your newly altered contacts hash!
+contacts.each do | person,data |
+  data.each do | attribute, value |
+    if attribute == :favorite_icecream_flavors
+      value.each do |flavor|
+          puts "#{flavor}"
+#second_method 
+# contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }
+
   contacts
 end

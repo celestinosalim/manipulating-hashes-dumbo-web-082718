@@ -26,7 +26,7 @@ contacts.each do | person, data |
         end
     end
   end
-
+end
 end
 
 #second_method

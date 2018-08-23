@@ -27,7 +27,6 @@ contacts.each do | person,data |
       end
     end
   end
-  binding.pry
 
 #second_method
 # contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }

@@ -29,7 +29,7 @@ contacts.each do | person, data |
 
 end
 
-#second_method
+#second_method 
 # contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }
 
   contacts

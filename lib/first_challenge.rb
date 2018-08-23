@@ -36,4 +36,6 @@ end
 # contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }
 
   contacts
+  binding.pry
+
 end

@@ -14,7 +14,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-  # binding.pry
+  binding.pry
 
 #first_method
 
@@ -23,7 +23,7 @@ contacts.each do | person,data |
     if attribute == :favorite_icecream_flavors
       value.each do |flavor|
           puts "#{flavor}"
-#second_method 
+#second_method
 # contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }
 
   contacts

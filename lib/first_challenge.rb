@@ -29,6 +29,8 @@ contacts.each do | person, data |
       end
     end
   end
+  binding.pry
+
 end
   binding.pry
 

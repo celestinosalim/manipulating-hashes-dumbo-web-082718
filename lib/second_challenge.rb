@@ -9,8 +9,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-values = groceries.values
-values.join("")
+groceries.values
 binding.pry
 
 end

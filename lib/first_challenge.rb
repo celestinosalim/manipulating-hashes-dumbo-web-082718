@@ -28,6 +28,7 @@ contacts.each do | person, data |
       end
     end
   end
+end
   binding.pry
 
 #second_method

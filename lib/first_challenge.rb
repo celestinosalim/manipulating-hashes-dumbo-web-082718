@@ -16,7 +16,7 @@ def first_challenge
   }
   binding.pry
 
-contacts["Freddy Mercury"][:favorite_icecream_flavors]
+contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }
 
   #remember to return your newly altered contacts hash!
   contacts

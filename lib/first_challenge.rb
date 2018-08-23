@@ -24,7 +24,9 @@ contacts.each do | person,data |
       value.each do |flavor|
           puts "#{flavor}"
         end
-
+      end
+    end
+  end
 #second_method
 # contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if{ |x| x == "strawberry" }
 
